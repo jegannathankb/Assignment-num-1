@@ -1,0 +1,79 @@
+input[type="password"] 
+{
+    border: 2px solid red;
+    background-color: #ffe6e6;
+    padding: 4px;
+    border-radius: 3px;
+}
+button 
+{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover 
+{
+    background: darkblue;
+    transform: scale(1.01);     
+}
+input::placeholder 
+{
+    color: green;
+    font-style: italic;
+}
+.title::before
+{
+    content: "(";      
+    color: orange;
+    font-size: 30px;
+}
+.title::after
+{
+    content:")";
+    color: orange;
+    font-size: 30px;
+}
+.my-box 
+{
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 15px;
+    background-color: white;
+}
+/* Practicaltask1 */
+.card 
+{
+    width: 90%;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: white;
+    text-align: center;
+    transition: 0.3s;
+}
+.card img 
+{
+    width: 100%;
+    border-radius: 10px;
+}
+.card:hover 
+{
+    box-shadow: 0 8px 18px rgba(0,0,0,0.3);
+    transform: translateY(-5px);
+}
+button 
+{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}

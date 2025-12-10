@@ -1,0 +1,48 @@
+/* Practicaltask5 */
+.pricing-box 
+{
+    width: 300px;                 
+    padding: 20px;                
+    margin: 40px auto;            
+    border: 2px solid blue;   
+    border-radius: 10px;          
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    background: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+.pricing-box h2 
+{
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 15px 0;
+    color: brown;
+}
+
+.pricing-box ul 
+{
+    text-align: left;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+button 
+{
+    padding: 10px 20px;
+    border: none;
+    background:blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover 
+{
+    background: blue;
+}

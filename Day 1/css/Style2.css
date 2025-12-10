@@ -1,0 +1,25 @@
+/* Praticaltask2 */
+input 
+{
+    width: 250px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid ;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+}
+input:focus 
+{
+    border-color: blue;
+    box-shadow: 0 0 8px blue;
+}
+button 
+{
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

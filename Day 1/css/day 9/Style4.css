@@ -1,0 +1,13 @@
+/* Practicaltask4 */
+.Pseudo::first-letter 
+{
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+}
+
+.Pseudo::selection 
+{
+    background: yellow;
+    color: black;
+}

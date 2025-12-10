@@ -1,0 +1,18 @@
+/* Praticaltask3 */
+.press
+{
+    padding: 12px 25px;
+    font-size: 18px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: 0 5px 0 blue;
+}
+.press:active 
+{
+    transform: translateY(10px);      
+    box-shadow: 0 14px 0 orange;      
+}
