@@ -1,0 +1,15 @@
+.center-text {
+  text-align: center;
+  color: blue;
+}
+.fixed-btn {
+  position: fixed;     
+  bottom: 20px;        
+  right: 20px;         
+  padding: 12px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

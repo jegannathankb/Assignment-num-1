@@ -1,0 +1,33 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  width: 300px;
+  background-color: #ffffff;
+  margin: 40px auto;          /* outer spacing */
+  padding: 20px;              /* inner spacing */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  color: #1e90ff;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #555555;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.card button {
+  padding: 10px 16px;
+  background-color: #1e90ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

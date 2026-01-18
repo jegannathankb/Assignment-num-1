@@ -1,0 +1,28 @@
+.blog {
+  max-width: 700px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+  line-height: 1.8;
+  color: #333333;
+}
+
+.blog h1 {
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  color: blue;
+}
+
+.blog .meta {
+  text-align: center;
+  font-size: 14px;
+  color: green;
+  margin-bottom: 20px;
+}
+
+.blog p {
+  text-align: justify;
+  font-size: 16px;
+  word-spacing: 2px;
+  margin-bottom: 15px;
+}
