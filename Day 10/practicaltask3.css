@@ -1,0 +1,17 @@
+.contact-us-btn {
+  position: fixed;          /* floats on the screen */
+  bottom: 20px;             /* distance from bottom */
+  right: 20px;              /* distance from right */
+  padding: 14px 22px;
+  background-color: orange;
+  color:white;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.contact-us-btn:hover {
+  background-color: #e64a19;
+}

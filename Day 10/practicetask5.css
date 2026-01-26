@@ -1,0 +1,24 @@
+.box {
+  width: 200px;
+  height: 200px;
+  position: absolute;   
+  color: white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box1 {
+  background-color: orange;
+  top: 50px;
+  left: 50px;
+  z-index: 1;
+}
+
+.box2 {
+  background-color: blue;
+  top: 100px;
+  left: 100px;
+  z-index: 2;   
+}

@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.sticky-header {
+  position: sticky;   
+  top: 0;             
+  background-color: black;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.content {
+  padding: 20px;
+}

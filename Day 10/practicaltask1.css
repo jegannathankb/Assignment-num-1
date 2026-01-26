@@ -1,0 +1,35 @@
+.product-card 
+{
+  position: relative;        /* parent reference */
+  width: 260px;
+  padding: 20px;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.sale-badge 
+{
+  position: absolute;        /* absolute badge */
+  top: 10px;
+  right: 10px;
+  background-color: red;
+  color: white;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.product-card h3 {
+  margin-top: 30px;
+  color: black;
+}
+
+.product-card .price {
+  font-size: 18px;
+  font-weight: bold;
+  color: blue;
+}

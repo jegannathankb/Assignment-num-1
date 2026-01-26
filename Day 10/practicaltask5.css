@@ -1,0 +1,36 @@
+.card-container 
+{
+  position: relative;      
+  width: 300px;
+  height: 220px;
+  margin: 50px auto;
+}
+
+.image-card 
+{
+  position: absolute;      
+  width: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.image-card img 
+{
+  width: 100%;
+  display: block;
+}
+
+.card1 
+{
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+}
+
+.card2 
+{
+  top: 60px;
+  left: 80px;
+  z-index: 2;  
+}
