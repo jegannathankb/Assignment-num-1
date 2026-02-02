@@ -1,0 +1,14 @@
+.container {
+  display: flex;                 /* enable flexbox */
+  justify-content: center;       /* horizontal center */
+  align-items: center;           /* vertical center */
+  height: 100vh;                 /* full viewport height */
+  background-color: white;
+}
+
+.box {
+  padding: 30px 40px;
+  background-color: blue;
+  color: white;
+  border-radius: 8px;
+}

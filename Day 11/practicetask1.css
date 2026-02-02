@@ -1,0 +1,10 @@
+.block-element {
+  background-color: blue;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.inline-element {
+  background-color: greenyellow;
+  padding: 5px;
+}

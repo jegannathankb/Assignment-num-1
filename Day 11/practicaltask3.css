@@ -1,0 +1,20 @@
+body 
+{
+  font-family: Arial, sans-serif;
+  background-color: grey;
+  padding: 20px;
+}
+
+.gallery 
+{
+  display: grid;                              
+  grid-template-columns: repeat(3, 1fr);     
+  gap: 15px;
+}
+
+.gallery img 
+{
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
