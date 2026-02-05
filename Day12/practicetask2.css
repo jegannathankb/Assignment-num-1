@@ -1,0 +1,15 @@
+.parent {
+  display: flex;
+  justify-content: center;   
+  align-items: center;       
+  height: 100vh;             
+  background-color: white;
+}
+
+.child {
+  padding: 30px;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+}

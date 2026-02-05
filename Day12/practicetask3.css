@@ -1,0 +1,15 @@
+.flex-container 
+{
+  display: flex;
+  gap: 20px;              
+  padding: 20px;
+  background-color: white;
+}
+
+.item 
+{
+  background-color: green;
+  color: white;
+  padding: 20px;
+  border-radius: 6px;
+}

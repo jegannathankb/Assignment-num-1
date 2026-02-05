@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body 
+{
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+
+.dashboard {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+  grid-template-columns: 250px 1fr;
+  grid-template-rows: 60px 1fr 50px;
+  min-height: 100vh;
+}
+
+
+.header 
+{
+  grid-area: header;
+  background-color: blue;
+  color: white;
+  padding: 15px;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color:black;
+  color: white;
+  padding: 20px;
+}
+
+.main {
+  grid-area: main;
+  background-color: white;
+  padding: 20px;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}

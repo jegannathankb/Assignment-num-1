@@ -1,0 +1,18 @@
+.flex-container 
+{
+  display: flex;              
+  gap: 15px;                  
+  justify-content: space-between;
+  padding: 20px;
+  background-color: white;
+}
+
+.item 
+{
+  background-color: green;
+  color: white;
+  padding: 20px;
+  flex: 1;                    
+  text-align: center;
+  border-radius: 8px;
+}
