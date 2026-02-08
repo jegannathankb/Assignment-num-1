@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Banner container */
+.banner {
+  height: 250px;
+  background: linear-gradient(120deg, hsl(14, 100%, 63%), hsl(14, 100%, 57%));
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Main animated text */
+.animate-text {
+  font-size: 40px;
+  animation: slideFade 2s ease-in-out;
+}
+
+/* Subtitle animation */
+.sub-text {
+  font-size: 18px;
+  margin-top: 10px;
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+  animation-delay: 1.5s;
+}
+
+/* Keyframes */
+@keyframes slideFade {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

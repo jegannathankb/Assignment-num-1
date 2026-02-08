@@ -1,0 +1,29 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  background-color: orangered;
+  animation: move 2s linear infinite;
+}
+
+
+.box:hover {
+  animation-play-state: paused;
+}
+
+
+@keyframes move {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(250px);
+  }
+}

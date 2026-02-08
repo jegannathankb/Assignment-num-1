@@ -1,0 +1,24 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  background-color: orangered;
+  position: relative;
+  animation: moveRight 2s linear infinite alternate;
+}
+
+/* Animation */
+@keyframes moveRight {
+  from {
+    left: 0;
+  }
+  to {
+    left: 300px;
+  }
+}

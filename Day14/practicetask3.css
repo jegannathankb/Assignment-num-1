@@ -1,0 +1,25 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: orangered;
+  animation: move 2s ease-in-out infinite;
+  animation-delay: 2s;      
+}
+
+/* Animation */
+@keyframes move {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(200px);
+  }
+}

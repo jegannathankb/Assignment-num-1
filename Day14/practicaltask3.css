@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: whitesmoke;
+  font-family: Arial, sans-serif;
+}
+
+.attention-btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  color:whitesmoke;
+  background-color: orangered;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  animation: pulse 1.5s infinite;
+}
+
+.attention-btn:hover {
+  animation-play-state: paused;
+  background-color: orangered;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 87, 34, 0.7);
+  }
+  70% {
+    transform: scale(1.08);
+    box-shadow: 0 0 0 20px rgba(255, 87, 34, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 87, 34, 0);
+  }
+}
