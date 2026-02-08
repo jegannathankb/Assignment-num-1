@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+
+.profile-card {
+  background: white;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+
+.profile-header {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-header h2 {
+  margin-bottom: 5px;
+}
+
+/* Body */
+.profile-body {
+  padding: 20px;
+}
+
+.profile-body p {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: brown;
+}
+
+.profile-body h4 {
+  margin-bottom: 10px;
+}
+
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skills span {
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+
+.profile-footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: white;
+}
+
+.profile-footer a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+
+
+@media (max-width: 600px) {
+  .profile-card {
+    width: 90%;
+  }
+
+  .profile-body p {
+    font-size: 13px;
+  }
+}

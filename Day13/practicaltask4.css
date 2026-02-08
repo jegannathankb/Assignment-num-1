@@ -1,0 +1,64 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color:honeydew;
+}
+
+/* Header */
+.header {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Blog Layout */
+.blog-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Posts */
+.posts {
+  flex: 3;
+}
+
+.post {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.post h2 {
+  margin-bottom: 10px;
+}
+
+/* Sidebar */
+.sidebar {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Footer */
+.footer {
+  background-color:black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .blog-container {
+    flex-direction: column;
+  }
+}

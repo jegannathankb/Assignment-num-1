@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Mobile default (single column) */
+.header, .footer {
+  background: orangered;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;     /* Mobile first */
+}
+
+.content {
+  padding: 20px;
+  background: whitesmoke
+}
+
+.sidebar {
+  padding: 20px;
+  background:whitesmoke
+}
+
+.footer {
+  background: black;
+}
+
+/*  Tablet & Desktop */
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;     
+  }
+
+  .content {
+    flex: 3;
+  }
+
+  .sidebar {
+    flex: 1;
+  }
+}

@@ -1,0 +1,31 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Desktop: 4 columns */
+  gap: 20px;
+  padding: 20px;
+}
+
+.item 
+{
+  background-color: blue;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+/*  Tablet */
+@media (max-width: 900px)
+ {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/*  Mobile */
+@media (max-width: 600px) 
+{
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
