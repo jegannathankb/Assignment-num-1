@@ -1,0 +1,2 @@
+/*-The DOM (Document Object Model) is a tree-like structure created by the browser that represents an HTML page.
+-It allows JavaScript to see, access, and change the content, style, and structure of a web page while it is running.*/
