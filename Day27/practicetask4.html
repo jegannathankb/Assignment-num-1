@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Key Press Detection</title>
+</head>
+<body>
+
+<h3>Press any key on the keyboard</h3>
+<p id="output">Waiting for key press...</p>
+
+<script>
+  document.addEventListener("keydown", function (event) {
+    document.getElementById("output").innerText =
+      "You pressed: " + event.key;
+  });
+</script>
+
+</body>
+</html>

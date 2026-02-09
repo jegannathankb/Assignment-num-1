@@ -1,0 +1,40 @@
+<!--1 Inline Events-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inline Event</title>
+</head>
+<body>
+
+<button onclick="sayHello()">Click Me</button>
+
+<script>
+  function sayHello() {
+    alert("Hello from Inline Event!");
+  }
+</script>
+
+</body>
+</html>
+
+<!--2️ addEventListener()-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>addEventListener</title>
+</head>
+<body>
+
+<button id="btn">Click Me</button>
+
+<script>
+  const button = document.getElementById("btn");
+
+  button.addEventListener("click", function () {
+    alert("Hello from addEventListener!");
+  });
+</script>
+
+</body>
+</html>
+ 

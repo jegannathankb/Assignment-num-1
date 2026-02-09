@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nested Click Logger (Bubbling Demo)</title>
+  <style>
+    #outer {
+      padding: 50px;
+      background-color: lightblue;
+      margin: 20px;
+    }
+    #middle {
+      padding: 30px;
+      background-color: lightgreen;
+      margin: 20px;
+    }
+    #inner {
+      padding: 20px;
+      background-color: lightcoral;
+      margin: 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Nested Click Logger (Event Bubbling Demo)</h2>
+
+<div id="outer">Outer Div
+  <div id="middle">Middle Div
+    <div id="inner">Inner Div (Click Me)</div>
+  </div>
+</div>
+
+<script src="practicaltask5.js"></script>
+</body>
+</html>

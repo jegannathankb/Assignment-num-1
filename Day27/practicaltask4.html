@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Submission Validator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+    }
+    input {
+      display: block;
+      margin: 10px 0;
+      padding: 5px;
+    }
+    .error {
+      color: red;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Registration Form</h2>
+
+<form id="myForm">
+  <label for="name">Name:</label>
+  <input type="text" id="name" placeholder="Enter your name">
+  <div id="nameError" class="error"></div>
+
+  <label for="email">Email:</label>
+  <input type="text" id="email" placeholder="Enter your email">
+  <div id="emailError" class="error"></div>
+
+  <button type="submit">Submit</button>
+</form>
+
+<script src="practicaltask4.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mouse Click Event</title>
+</head>
+<body>
+
+<button id="clickBtn">Click Me</button>
+<p id="result">Waiting for click...</p>
+
+<script>
+  const button = document.getElementById("clickBtn");
+  button.addEventListener("click", function () {
+    document.getElementById("result").innerText = "Button was clicked!";
+  });
+</script>
+
+</body>
+</html>
